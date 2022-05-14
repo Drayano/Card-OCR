@@ -1,5 +1,11 @@
 # Card-OCR
 
+Android application that scans and automatically extract relevant data from any business card such as Name,
+Website, Phone number etc...
+
+Application Android permettant de scanner et d'extraire automatiquement les informations présentes sur
+n'importe quelle carte de visite telle que : Nom, Site Web, Numéro de Téléphone etc...
+
 Login Screen / Interface de Connexion
 
 ![studio64_2022-05-14_23-10-50](https://user-images.githubusercontent.com/23234946/168450683-2486f25e-7e9f-431f-9288-147e3e5ca432.png)
