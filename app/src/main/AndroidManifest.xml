@@ -52,7 +52,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="card_ocr.fileprovider"
+            android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

@@ -646,8 +646,8 @@ public class NewEntreprise extends AppCompatActivity
             if (photoFile != null)
             {
                 // Continue only if file was successfully created
-                photoURI = FileProvider.getUriForFile(this,
-                        "com.drayano.card_ocr.fileprovider",
+                photoURI = FileProvider.getUriForFile(getApplicationContext(),
+                        BuildConfig.APPLICATION_ID + ".provider",
                         photoFile);
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
