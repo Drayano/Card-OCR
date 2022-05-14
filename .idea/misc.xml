@@ -5,6 +5,17 @@
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/drawable/radius.xml" value="0.2985" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/activity_edit_entreprise.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/activity_entreprise_informations.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/activity_image_cropper.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/fragment_list_partners.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/fragment_liste.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/fragment_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/liste_element.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/nav_header.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/new_entreprise.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/toolbar.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>
