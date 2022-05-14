@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/drawable/radius.xml" value="0.2985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Card_OCR/app/src/main/Card-OCR/app/src/main/res/layout/activity_edit_entreprise.xml" value="0.24954710144927536" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

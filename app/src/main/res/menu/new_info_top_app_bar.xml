@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/use_camera"
+        android:icon="@drawable/camera_50px"
+        android:title="@string/utiliser_camera"
+        app:showAsAction="ifRoom"/>
+    <item
+    android:id="@+id/confirm_add"
+    android:icon="@drawable/ic_confirm_add"
+    android:title="@string/confirmer"
+    app:showAsAction="ifRoom" />
+
+</menu>

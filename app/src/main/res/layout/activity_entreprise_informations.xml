@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/radius">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/entreprise_info_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/informations"
+            app:menu="@menu/entreprise_info_app_bar"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:background="@drawable/radius"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp">
+
+        <RelativeLayout
+
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".NewEntreprise"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/img_new_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/skyscrapers_100px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/affichage_nom"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@+id/img_new_company"
+                android:layout_centerHorizontal="true"
+                android:text="Entreprise"
+                android:textSize="20sp"
+                android:textColor="@color/primary_text"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/affichage_nom"
+                android:orientation="horizontal"
+                android:id="@+id/layout_affich_tel"
+                android:layout_marginTop="30dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/affichage_tel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tel"
+                        android:textSize="20sp"
+                        android:textColor="@color/primary_text"
+                        android:layout_marginLeft="20dp"
+                        android:layout_centerVertical="true"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/btn_call_tel1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_call"
+                            android:backgroundTintMode="screen"/>
+                        <ImageButton
+                            android:id="@+id/btn_msg_tel1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_message"
+                            android:backgroundTintMode="screen"/>
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_affich_tel"
+                android:orientation="horizontal"
+                android:id="@+id/layout_affich_tel2"
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/affichage_tel2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tel2"
+                        android:textSize="20sp"
+                        android:textColor="@color/primary_text"
+                        android:layout_marginLeft="20dp"
+                        android:layout_centerVertical="true"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/btn_call_tel2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_call"
+                            android:backgroundTintMode="screen"/>
+                        <ImageButton
+                            android:id="@+id/btn_msg_tel2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_message"
+                            android:backgroundTintMode="screen"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_affich_tel2"
+                android:orientation="horizontal"
+                android:id="@+id/layout_affich_fix"
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/affichage_fix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fixe"
+                        android:textSize="20sp"
+                        android:textColor="@color/primary_text"
+                        android:layout_marginLeft="20dp"
+                        android:layout_centerVertical="true"/>
+                    <ImageButton
+                        android:id="@+id/btn_call_fix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_call"
+                        android:backgroundTintMode="screen"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/primary_dark"
+                android:layout_below="@id/layout_affich_fix"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_affich_fix"
+                android:orientation="horizontal"
+                android:id="@+id/layout_affich_email"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/affichage_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:textSize="20sp"
+                        android:textColor="@color/primary_text"
+                        android:layout_marginLeft="20dp"
+                        android:layout_centerVertical="true"/>
+                    <ImageButton
+                        android:id="@+id/btn_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_email"
+                        android:backgroundTintMode="screen"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_affich_email"
+                android:orientation="horizontal"
+                android:id="@+id/layout_affich_website"
+                android:layout_marginTop="10dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/affichage_website"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/website"
+                        android:textSize="20sp"
+                        android:textColor="@color/primary_text"
+                        android:layout_marginLeft="20dp"
+                        android:layout_centerVertical="true"/>
+                    <ImageButton
+                        android:id="@+id/btn_website"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_web"
+                        android:backgroundTintMode="screen"
+                        android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_affich_website"
+                android:orientation="horizontal"
+                android:id="@+id/layout_affich_location"
+                android:layout_marginTop="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/affichage_localization"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/localization"
+                            android:textSize="20sp"
+                            android:textColor="@color/primary_text"
+                            android:layout_marginLeft="20dp"
+                            android:layout_centerVertical="true" />
+                        <ImageButton
+                            android:id="@+id/btn_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_location"
+                            android:backgroundTintMode="screen"
+                            android:layout_alignParentRight="true"/>
+                    </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rating_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_affich_location"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp">
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:theme="@style/RatingBar"
+                    android:layout_gravity="center_horizontal"
+                    android:isIndicator="true"
+                    android:focusable="false"/>
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

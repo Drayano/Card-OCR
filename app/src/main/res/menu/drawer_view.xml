@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btn_home"
+            android:icon="@drawable/home"
+            android:title="@string/home"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/listeEntreprise"
+            android:title="@string/liste_entreprise"
+            android:icon="@drawable/company_70px"/>
+        <item
+            android:id="@+id/export_excel"
+            android:title="@string/exporter_vers_excel"/>
+        <item
+            android:id="@+id/logout"
+            android:title="@string/deconnecter"/>
+
+
+
+    </group>
+
+</menu>
