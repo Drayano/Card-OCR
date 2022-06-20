@@ -1,6 +1,6 @@
 # Card-OCR
 
-Android application that scans and automatically extract relevant data from any business card such as Name,
+Card-OCR is an Android application that scans and automatically extract relevant data from any business card such as Name,
 Website, Phone number etc...
 
 Application Android permettant de scanner et d'extraire automatiquement les informations présentes sur
